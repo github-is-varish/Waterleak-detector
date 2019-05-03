@@ -61,7 +61,7 @@ while A == 1:
             B = 0
             print ("reset B to 0")
             print (B)
-            time.sleep(86400)
+            time.sleep(10800)
     #86400
     else:
         #A = 0
