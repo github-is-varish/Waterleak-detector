@@ -1,6 +1,6 @@
 
 
-
+   
 A = 1
 import RPi.GPIO as GPIO 
 GPIO.setmode(GPIO.BCM)
@@ -61,12 +61,12 @@ while A == 1:
             B = 0
             print ("reset B to 0")
             print (B)
-            time.sleep(10)
+            time.sleep(86400)
     #86400
     else:
         #A = 0
         print('there is no elec')
-        time.sleep(6)
+        time.sleep(600)
 
     #print ('A is ', A)
 print ('exited while loop')
